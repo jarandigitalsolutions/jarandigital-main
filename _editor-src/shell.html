@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Editor | Jaran Digital Solutions</title>
+<meta name="description" content="Offline page editor for jarandigital.com.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0c1626">
+<link rel="icon" href="{{FAVICON}}">
+<style>
+{{EDITOR_CSS}}
+</style>
+</head>
+<body>
+
+<div class="jde">
+
+  <header class="jde-top">
+    <div class="jde-brand">
+      <img src="{{FAVICON}}" alt="">
+      <div><b>Page Editor</b><span>Jaran Digital Solutions</span></div>
+    </div>
+
+    <div class="jde-file">
+      <select id="pageSelect" aria-label="Page to edit" title="Choose a page to edit"></select>
+      <button class="ebtn" id="btnLoad" type="button">Open</button>
+      <button class="ebtn" id="btnUpload" type="button" title="Edit an .html file from this device">From file…</button>
+      <span class="src-badge" id="srcBadge" hidden></span>
+      <input type="file" id="fileInput" accept=".html,.htm,text/html" hidden>
+    </div>
+
+    <div class="jde-tools">
+      <button class="ebtn icon" id="btnUndo" type="button" title="Undo (Ctrl+Z)" disabled>↶</button>
+      <button class="ebtn icon" id="btnRedo" type="button" title="Redo (Ctrl+Shift+Z)" disabled>↷</button>
+      <span class="jde-sep"></span>
+      <div class="jde-seg" id="viewportSeg" role="group" aria-label="Preview width">
+        <button type="button" data-w="0" class="on">Desktop</button>
+        <button type="button" data-w="820">Tablet</button>
+        <button type="button" data-w="420">Mobile</button>
+      </div>
+      <span class="jde-sep"></span>
+      <button class="ebtn" id="btnGuides" type="button" title="Hide the editing outlines to see the page as visitors will">Hide guides</button>
+      <button class="ebtn primary" id="btnExport" type="button" disabled>Export <b id="exportName">—</b></button>
+    </div>
+  </header>
+
+  <div class="jde-main">
+
+    <aside class="jde-left">
+      <div class="jde-tabs" role="tablist">
+        <button type="button" id="tabOutline" class="on" role="tab" aria-selected="true" aria-controls="paneOutline">Sections</button>
+        <button type="button" id="tabBlocks" role="tab" aria-selected="false" aria-controls="paneBlocks">Add block</button>
+        <button type="button" id="tabPage" role="tab" aria-selected="false" aria-controls="panePage">Page</button>
+      </div>
+
+      <div class="jde-pane" id="paneOutline" role="tabpanel" aria-labelledby="tabOutline">
+        <p class="pane-title">Sections on this page</p>
+        <p class="pane-hint">Click a section to select it. Use the panel on the right to move, duplicate, replace or delete it.</p>
+        <div class="outline" id="outline"></div>
+      </div>
+
+      <div class="jde-pane" id="paneBlocks" role="tabpanel" aria-labelledby="tabBlocks" hidden>
+        <div id="blockMode"></div>
+        <p class="pane-title">Content</p>
+        <div class="blocks" id="blocksContent"></div>
+        <p class="pane-title">Photo &amp; video</p>
+        <div class="blocks" id="blocksMedia"></div>
+        <p class="pane-title">Calls to action</p>
+        <div class="blocks" id="blocksCta"></div>
+      </div>
+
+      <div class="jde-pane" id="panePage" role="tabpanel" aria-labelledby="tabPage" hidden>
+        <p class="pane-title">Page settings</p>
+        <p class="pane-hint">These control the browser tab title and the summary shown by Google and in link previews.</p>
+        <div class="fgroup">
+          <label for="pgTitle">Browser tab title</label>
+          <input class="finput" id="pgTitle" type="text" placeholder="Page title">
+        </div>
+        <div class="fgroup">
+          <label for="pgDesc">Meta description</label>
+          <textarea class="ftext" id="pgDesc" placeholder="One or two sentences describing this page." style="min-height:70px"></textarea>
+          <p class="fhint">Aim for 120–160 characters.</p>
+        </div>
+
+        <p class="pane-title">File</p>
+        <div class="fgroup">
+          <label for="pgFile">Exports as</label>
+          <input class="finput" id="pgFile" type="text" spellcheck="false">
+          <p class="fhint">Save this file into the site folder, replacing the existing one, then publish.</p>
+        </div>
+
+        <p class="pane-title">Backup on this device</p>
+        <div class="fgroup" id="draftInfo"></div>
+        <p class="fhint" id="buildStamp"></p>
+      </div>
+    </aside>
+
+    <div class="jde-canvas">
+      <div class="jde-frame-wrap" id="frameWrap">
+        <iframe id="stage" title="Page being edited"></iframe>
+      </div>
+      <div class="jde-veil" id="veil">Loading…</div>
+    </div>
+
+    <aside class="jde-right" id="inspector"></aside>
+
+  </div>
+</div>
+
+<div class="jde-toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+window.JDE_BUNDLE = {{BUNDLE}};
+</script>
+<script>
+{{EDITOR_JS}}
+</script>
+</body>
+</html>

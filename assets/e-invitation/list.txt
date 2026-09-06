@@ -1,0 +1,29 @@
+# Jaran E-Invitation -- video template list
+#
+# HOW THIS WORKS
+# One template per line, in the order you want it shown on the website:
+#
+#   Category | Template Name | YouTube link
+#
+# Lines starting with # are ignored/notes. As long as this file is empty (or
+# only has # lines), the website shows a few sample placeholder cards instead
+# -- no video, just the category and name, with a note that the preview is
+# coming soon. Add your real lines below and they replace the placeholders
+# automatically -- no other file needs to change.
+#
+# CATEGORY
+#   Use one of: Wedding, Birthday, Baby Shower, Anniversary, Corporate,
+#   Engagement, Graduation, Housewarming, Party, Other
+#   (these match the folders in the E-Invitation Dashboard's templates/ folder)
+#
+# YOUTUBE LINK
+#   Any normal YouTube link works: youtu.be/xxxx, youtube.com/watch?v=xxxx,
+#   or youtube.com/shorts/xxxx. Upload the preview as "Unlisted" on YouTube --
+#   it won't show up in search, but anyone with the site link can watch it.
+#
+# EXAMPLE (delete the # to activate a line like this):
+# Wedding | Royal Gold Wedding | https://youtu.be/dQw4w9WgXcQ
+# Birthday | Neon Birthday Bash | https://youtu.be/dQw4w9WgXcQ
+#
+# ---------------------------------------------------------------------
+# Your templates:

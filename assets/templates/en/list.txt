@@ -1,0 +1,38 @@
+# Jaran CV -- English template list
+#
+# HOW THIS WORKS
+# One image file name per line, in the order you want it shown on the
+# website. Put the actual image files in this same folder
+# (assets/templates/en/). Lines starting with # are ignored/notes.
+#
+# As long as this file is empty (or only has # lines), the website shows
+# its built-in placeholder designs instead. Add your real file names below
+# and they replace the placeholders automatically -- no other file needs
+# to change.
+#
+# NAMING YOUR FILES
+#   JARAN-<number>-EN_<Design-Name>.<jpg|png|webp>
+#
+#   The number is what customers say back to you on Telegram, and is shown
+#   in the sent message alongside the design name and language, so you can
+#   tell exactly which template someone picked:
+#     JARAN-01-EN_Onyx-Executive.png   ->  shown as "01 -- Onyx Executive"
+#     JARAN-02-EN_Meridian-Executive.png -> shown as "02 -- Meridian Executive"
+#
+#   Keep the SAME number and design name across all three language
+#   folders (en/kh/zh) -- only the EN/KH/ZH tag changes -- so "01" always
+#   means the same design no matter which language a customer is browsing.
+#
+# IMAGE SPECS
+#   - JPG, PNG, or WEBP
+#   - Portrait orientation, about 800 x 1000px (or similar A4-ish ratio)
+#   - Keep each file under ~400KB so the page stays fast to load
+#   - Clicking a template on the site opens the full image in a new tab,
+#     so upload the cleanest, most complete screenshot of the design you
+#     have -- nothing gets cropped or zoomed for that full view.
+#
+# ---------------------------------------------------------------------
+# Your English templates (uncomment / add lines once the files are here):
+#
+# JARAN-01-EN_Onyx-Executive.png
+# JARAN-02-EN_Meridian-Executive.png

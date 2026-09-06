@@ -1,0 +1,19 @@
+# Jaran CV -- Chinese template list
+#
+# Same rules as assets/templates/en/list.txt, but for the Chinese-language
+# versions of your designs. Put the image files in this same folder
+# (assets/templates/zh/).
+#
+# NAMING YOUR FILES
+#   JARAN-<number>-ZH_<Design-Name>.<jpg|png|webp>
+#
+#   Use the SAME number and design name as the matching English file --
+#   only the language tag changes:
+#     JARAN-01-ZH_Onyx-Executive.png   ->  shown as "01 -- Onyx Executive"
+#     JARAN-02-ZH_Meridian-Executive.png -> shown as "02 -- Meridian Executive"
+#
+# ---------------------------------------------------------------------
+# Your Chinese templates (uncomment / add lines once the files are here):
+#
+# JARAN-01-ZH_Onyx-Executive.png
+# JARAN-02-ZH_Meridian-Executive.png

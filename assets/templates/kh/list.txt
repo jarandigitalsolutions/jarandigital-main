@@ -1,0 +1,19 @@
+# Jaran CV -- Khmer template list
+#
+# Same rules as assets/templates/en/list.txt, but for the Khmer-language
+# versions of your designs. Put the image files in this same folder
+# (assets/templates/kh/).
+#
+# NAMING YOUR FILES
+#   JARAN-<number>-KH_<Design-Name>.<jpg|png|webp>
+#
+#   Use the SAME number and design name as the matching English file --
+#   only the language tag changes:
+#     JARAN-01-KH_Onyx-Executive.png   ->  shown as "01 -- Onyx Executive"
+#     JARAN-02-KH_Meridian-Executive.png -> shown as "02 -- Meridian Executive"
+#
+# ---------------------------------------------------------------------
+# Your Khmer templates (uncomment / add lines once the files are here):
+#
+# JARAN-01-KH_Onyx-Executive.png
+# JARAN-02-KH_Meridian-Executive.png
