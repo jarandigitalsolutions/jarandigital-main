@@ -1,38 +1,321 @@
 # Jaran CV -- English template list
 #
-# HOW THIS WORKS
-# One image file name per line, in the order you want it shown on the
-# website. Put the actual image files in this same folder
-# (assets/templates/en/). Lines starting with # are ignored/notes.
+# One image file name per line, in the order shown on the website.
+# Lines starting with # are ignored/notes.
 #
-# As long as this file is empty (or only has # lines), the website shows
-# its built-in placeholder designs instead. Add your real file names below
-# and they replace the placeholders automatically -- no other file needs
-# to change.
-#
-# NAMING YOUR FILES
+# NAMING
 #   JARAN-<number>-EN_<Design-Name>.<jpg|png|webp>
-#
-#   The number is what customers say back to you on Telegram, and is shown
-#   in the sent message alongside the design name and language, so you can
-#   tell exactly which template someone picked:
-#     JARAN-01-EN_Onyx-Executive.png   ->  shown as "01 -- Onyx Executive"
-#     JARAN-02-EN_Meridian-Executive.png -> shown as "02 -- Meridian Executive"
-#
-#   Keep the SAME number and design name across all three language
-#   folders (en/kh/zh) -- only the EN/KH/ZH tag changes -- so "01" always
-#   means the same design no matter which language a customer is browsing.
-#
-# IMAGE SPECS
-#   - JPG, PNG, or WEBP
-#   - Portrait orientation, about 800 x 1000px (or similar A4-ish ratio)
-#   - Keep each file under ~400KB so the page stays fast to load
-#   - Clicking a template on the site opens the full image in a new tab,
-#     so upload the cleanest, most complete screenshot of the design you
-#     have -- nothing gets cropped or zoomed for that full view.
+#   Keep the SAME number and design name across en/kh/zh -- only the
+#   language tag changes -- so a given number always means the same design.
 #
 # ---------------------------------------------------------------------
-# Your English templates (uncomment / add lines once the files are here):
-#
-# JARAN-01-EN_Onyx-Executive.png
-# JARAN-02-EN_Meridian-Executive.png
+JARAN-01-EN_Onyx-Executive.webp
+JARAN-02-EN_Meridian-Executive.webp
+JARAN-03-EN_Sterling-Director.webp
+JARAN-04-EN_Charcoal-Boardroom.webp
+JARAN-05-EN_Obsidian-Chief.webp
+JARAN-06-EN_Graphite-Executive.webp
+JARAN-07-EN_Ironwood-Executive.webp
+JARAN-08-EN_Anthracite-Partner.webp
+JARAN-09-EN_Azure-Corporate.webp
+JARAN-10-EN_Harbour-Corporate.webp
+JARAN-11-EN_Cobalt-Professional.webp
+JARAN-12-EN_Navy-Standard.webp
+JARAN-13-EN_Bluestone-Business.webp
+JARAN-14-EN_Teal-Corporate.webp
+JARAN-15-EN_Indigo-Enterprise.webp
+JARAN-16-EN_Sapphire-Office.webp
+JARAN-17-EN_Slate-Minimal.webp
+JARAN-18-EN_Paper-Minimal.webp
+JARAN-19-EN_Linen-Clean.webp
+JARAN-20-EN_Hairline-ATS.webp
+JARAN-21-EN_Bone-Simple.webp
+JARAN-22-EN_Quartz-Plain.webp
+JARAN-23-EN_Ash-Minimal.webp
+JARAN-24-EN_Chalk-Clear.webp
+JARAN-25-EN_Crimson-Creative.webp
+JARAN-26-EN_Coral-Studio.webp
+JARAN-27-EN_Amber-Studio.webp
+JARAN-28-EN_Magenta-Portfolio.webp
+JARAN-29-EN_Sunset-Creative.webp
+JARAN-30-EN_Plum-Creative.webp
+JARAN-31-EN_Terracotta-Design.webp
+JARAN-32-EN_Violet-Studio.webp
+JARAN-33-EN_Emerald-Academic.webp
+JARAN-34-EN_Ivy-Scholar.webp
+JARAN-35-EN_Laurel-Research.webp
+JARAN-36-EN_Moss-Faculty.webp
+JARAN-37-EN_Fern-Thesis.webp
+JARAN-38-EN_Pine-Lecturer.webp
+JARAN-39-EN_Sage-Scholar.webp
+JARAN-40-EN_Carbon-Engineer.webp
+JARAN-41-EN_Steel-Technical.webp
+JARAN-42-EN_Circuit-Developer.webp
+JARAN-43-EN_Titanium-Systems.webp
+JARAN-44-EN_Copper-Analyst.webp
+JARAN-45-EN_Cyan-Data.webp
+JARAN-46-EN_Basalt-Engineer.webp
+JARAN-47-EN_Nickel-Technical.webp
+JARAN-48-EN_Dawn-Graduate.webp
+JARAN-49-EN_Sky-Fresher.webp
+JARAN-50-EN_Mint-Entry.webp
+JARAN-51-EN_Peach-Intern.webp
+JARAN-52-EN_Lilac-Graduate.webp
+JARAN-53-EN_Sand-Trainee.webp
+JARAN-54-EN_Aqua-Starter.webp
+JARAN-55-EN_Rose-Graduate.webp
+JARAN-56-EN_Sepia-Portfolio.webp
+JARAN-57-EN_Mocha-Classic.webp
+JARAN-58-EN_Ledger-Classic.webp
+JARAN-59-EN_Broadsheet-ATS.webp
+JARAN-60-EN_Harbor-Hero.webp
+JARAN-61-EN_Meadow-Hero.webp
+JARAN-62-EN_Sage-Chip.webp
+JARAN-63-EN_Merlot-Chip.webp
+JARAN-64-EN_Navy-Badge.webp
+JARAN-65-EN_Indigo-Badge.webp
+JARAN-66-EN_Alabaster-Executive.webp
+JARAN-67-EN_Umber-Director.webp
+JARAN-68-EN_Flint-Partner.webp
+JARAN-69-EN_Marble-Boardroom.webp
+JARAN-70-EN_Granite-Chief.webp
+JARAN-71-EN_Platinum-Executive.webp
+JARAN-72-EN_Bronze-Advisor.webp
+JARAN-73-EN_Cerulean-Corporate.webp
+JARAN-74-EN_Ultramarine-Manager.webp
+JARAN-75-EN_Denim-Professional.webp
+JARAN-76-EN_Lagoon-Business.webp
+JARAN-77-EN_Periwinkle-Officer.webp
+JARAN-78-EN_Mekong-Enterprise.webp
+JARAN-79-EN_Bassac-Standard.webp
+JARAN-80-EN_Alabaster-Minimal.webp
+JARAN-81-EN_Pearl-Clean.webp
+JARAN-82-EN_Ivory-Simple.webp
+JARAN-83-EN_Zinc-Plain.webp
+JARAN-84-EN_Almond-Clear.webp
+JARAN-85-EN_Wheat-Formal.webp
+JARAN-86-EN_Chrome-Modern.webp
+JARAN-87-EN_Ruby-Studio.webp
+JARAN-88-EN_Amethyst-Portfolio.webp
+JARAN-89-EN_Saffron-Design.webp
+JARAN-90-EN_Burgundy-Creative.webp
+JARAN-91-EN_Coral-Elegant.webp
+JARAN-92-EN_Lotus-Studio.webp
+JARAN-93-EN_Sunrise-Portfolio.webp
+JARAN-94-EN_Forest-Scholar.webp
+JARAN-95-EN_Juniper-Research.webp
+JARAN-96-EN_Cypress-Faculty.webp
+JARAN-97-EN_Willow-Thesis.webp
+JARAN-98-EN_Olive-Lecturer.webp
+JARAN-99-EN_Basil-Academic.webp
+JARAN-100-EN_Angkor-Scholar.webp
+JARAN-101-EN_Graphite-Systems.webp
+JARAN-102-EN_Cinder-Developer.webp
+JARAN-103-EN_Turquoise-Data.webp
+JARAN-104-EN_Pewter-Engineer.webp
+JARAN-105-EN_Flint-Technical.webp
+JARAN-106-EN_Kirirom-Analyst.webp
+JARAN-107-EN_Bokor-Specialist.webp
+JARAN-108-EN_Peach-Coordinator.webp
+JARAN-109-EN_Opal-Graduate.webp
+JARAN-110-EN_Jade-Entry.webp
+JARAN-111-EN_Topaz-Fresher.webp
+JARAN-112-EN_Tonle-Starter.webp
+JARAN-113-EN_Monsoon-Trainee.webp
+JARAN-114-EN_Harvest-Intern.webp
+JARAN-115-EN_Garnet-Prime.webp
+JARAN-116-EN_Alloy-Executive.webp
+JARAN-117-EN_Anchor-Director.webp
+JARAN-118-EN_Summit-Chief.webp
+JARAN-119-EN_Timber-Partner.webp
+JARAN-120-EN_Ridge-Boardroom.webp
+JARAN-121-EN_Walnut-Advisor.webp
+JARAN-122-EN_Crest-Executive.webp
+JARAN-123-EN_Beacon-Corporate.webp
+JARAN-124-EN_Fjord-Manager.webp
+JARAN-125-EN_Horizon-Professional.webp
+JARAN-126-EN_Delta-Business.webp
+JARAN-127-EN_Harbour-Officer.webp
+JARAN-128-EN_Tide-Enterprise.webp
+JARAN-129-EN_Anchor-Standard.webp
+JARAN-130-EN_Salt-Minimal.webp
+JARAN-131-EN_Vellum-Clean.webp
+JARAN-132-EN_Mist-Simple.webp
+JARAN-133-EN_Pebble-Plain.webp
+JARAN-134-EN_Frost-Clear.webp
+JARAN-135-EN_Birch-Formal.webp
+JARAN-136-EN_Loam-Modern.webp
+JARAN-137-EN_Orchid-Studio.webp
+JARAN-138-EN_Ember-Portfolio.webp
+JARAN-139-EN_Petal-Design.webp
+JARAN-140-EN_Aurora-Creative.webp
+JARAN-141-EN_Lantern-Elegant.webp
+JARAN-142-EN_Thistle-Studio.webp
+JARAN-143-EN_Nutmeg-Portfolio.webp
+JARAN-144-EN_Cedar-Scholar.webp
+JARAN-145-EN_Sequoia-Research.webp
+JARAN-146-EN_Marsh-Faculty.webp
+JARAN-147-EN_Reed-Thesis.webp
+JARAN-148-EN_Spruce-Lecturer.webp
+JARAN-149-EN_Verde-Academic.webp
+JARAN-150-EN_Oak-Scholar.webp
+JARAN-151-EN_Alloy-Systems.webp
+JARAN-152-EN_Glacier-Developer.webp
+JARAN-153-EN_Kelp-Data.webp
+JARAN-154-EN_Shale-Engineer.webp
+JARAN-155-EN_Silt-Technical.webp
+JARAN-156-EN_Quarry-Analyst.webp
+JARAN-157-EN_Mesa-Specialist.webp
+JARAN-158-EN_Dune-Coordinator.webp
+JARAN-159-EN_Iris-Graduate.webp
+JARAN-160-EN_Haven-Entry.webp
+JARAN-161-EN_Maple-Fresher.webp
+JARAN-162-EN_Shore-Starter.webp
+JARAN-163-EN_Cadet-Trainee.webp
+JARAN-164-EN_Cobble-Intern.webp
+JARAN-165-EN_Pepper-Prime.webp
+JARAN-166-EN_Denim-Officer.webp
+JARAN-167-EN_Cypress-Thesis.webp
+JARAN-168-EN_Bronze-Boardroom.webp
+JARAN-169-EN_Pearl-Studio.webp
+JARAN-170-EN_Almond-Starter.webp
+JARAN-171-EN_Willow-Research.webp
+JARAN-172-EN_Lagoon-Portfolio.webp
+JARAN-173-EN_Cerulean-Manager.webp
+JARAN-174-EN_Umber-Trainee.webp
+JARAN-175-EN_Marble-Design.webp
+JARAN-176-EN_Juniper-Entry.webp
+JARAN-177-EN_Platinum-Chief.webp
+JARAN-178-EN_Wheat-Business.webp
+JARAN-179-EN_Amethyst-Creative.webp
+JARAN-180-EN_Periwinkle-Graduate.webp
+JARAN-181-EN_Chrome-Creative.webp
+JARAN-182-EN_Zinc-Minimal.webp
+JARAN-183-EN_Granite-Standard.webp
+JARAN-184-EN_Alabaster-Clean.webp
+JARAN-185-EN_Flint-Thesis.webp
+JARAN-186-EN_Ultramarine-Professional.webp
+JARAN-187-EN_Ruby-Creative.webp
+JARAN-188-EN_Carbon-Executive.webp
+JARAN-189-EN_Saffron-Elegant.webp
+JARAN-190-EN_Broadsheet-Plain.webp
+JARAN-191-EN_Ivory-Scholar.webp
+JARAN-192-EN_Ledger-Office.webp
+JARAN-193-EN_Cove-Corporate.webp
+JARAN-194-EN_Sable-Executive.webp
+JARAN-195-EN_Nectar-Studio.webp
+JARAN-196-EN_Umbra-Director.webp
+JARAN-197-EN_Indus-Professional.webp
+JARAN-198-EN_Tundra-Technical.webp
+JARAN-199-EN_Quill-Minimal.webp
+JARAN-200-EN_Lichen-Scholar.webp
+JARAN-201-EN_Rivet-Systems.webp
+JARAN-202-EN_Vertex-Analyst.webp
+JARAN-203-EN_Palisade-Officer.webp
+JARAN-204-EN_Wick-Graduate.webp
+JARAN-205-EN_Driftwood-Design.webp
+JARAN-206-EN_Canyon-Advisor.webp
+JARAN-207-EN_Bramble-Coordinator.webp
+JARAN-208-EN_Cirrus-Manager.webp
+JARAN-209-EN_Glimmer-Portfolio.webp
+JARAN-210-EN_Cliff-Boardroom.webp
+JARAN-211-EN_Basin-Clean.webp
+JARAN-212-EN_Aster-Studio.webp
+JARAN-213-EN_Kestrel-Entry.webp
+JARAN-214-EN_Lumen-Corporate.webp
+JARAN-215-EN_Prairie-Academic.webp
+JARAN-216-EN_Ember-Creative.webp
+JARAN-217-EN_Indus-Lecturer.webp
+JARAN-218-EN_Cove-Specialist.webp
+JARAN-219-EN_Sable-Partner.webp
+JARAN-220-EN_Glimmer-Fresher.webp
+JARAN-221-EN_Aster-Business.webp
+JARAN-222-EN_Nectar-Elegant.webp
+JARAN-223-EN_Tundra-Formal.webp
+JARAN-224-EN_Lichen-Research.webp
+JARAN-225-EN_Quill-Elegant.webp
+JARAN-226-EN_Nectar-Analyst.webp
+JARAN-227-EN_Driftwood-Scholar.webp
+JARAN-228-EN_Canyon-Graduate.webp
+JARAN-229-EN_Palisade-Manager.webp
+JARAN-230-EN_Umbra-Systems.webp
+JARAN-231-EN_Basin-Trainee.webp
+JARAN-232-EN_Rivet-Officer.webp
+JARAN-233-EN_Cirrus-Thesis.webp
+JARAN-234-EN_Bramble-Chief.webp
+JARAN-235-EN_Wick-Engineer.webp
+JARAN-236-EN_Aster-Officer.webp
+JARAN-237-EN_Lichen-Intern.webp
+JARAN-238-EN_Sable-Coordinator.webp
+JARAN-239-EN_Umbra-Specialist.webp
+JARAN-240-EN_Cliff-Advisor.webp
+JARAN-241-EN_Prairie-Standard.webp
+JARAN-242-EN_Kestrel-Faculty.webp
+JARAN-243-EN_Basin-Simple.webp
+JARAN-244-EN_Vertex-Manager.webp
+JARAN-245-EN_Canyon-Portfolio.webp
+JARAN-246-EN_Tundra-Prime.webp
+JARAN-247-EN_Cliff-Modern.webp
+JARAN-248-EN_Glimmer-Director.webp
+JARAN-249-EN_Cove-Developer.webp
+JARAN-250-EN_Quill-Analyst.webp
+JARAN-251-EN_Palisade-Plain.webp
+JARAN-252-EN_Prairie-Advisor.webp
+JARAN-253-EN_Blossom-Studio.webp
+JARAN-254-EN_Clover-Coordinator.webp
+JARAN-255-EN_Peony-Design.webp
+JARAN-256-EN_Bubble-Professional.webp
+JARAN-257-EN_Candy-Manager.webp
+JARAN-258-EN_Sherbet-Entry.webp
+JARAN-259-EN_Cotton-Starter.webp
+JARAN-260-EN_Daisy-Intern.webp
+JARAN-261-EN_Macaron-Trainee.webp
+JARAN-262-EN_Honey-Creative.webp
+JARAN-263-EN_Sprinkle-Portfolio.webp
+JARAN-264-EN_Pixie-Graduate.webp
+JARAN-265-EN_Blossom-Coordinator.webp
+JARAN-266-EN_Daisy-Faculty.webp
+JARAN-267-EN_Clover-Trainee.webp
+JARAN-268-EN_Peony-Portfolio.webp
+JARAN-269-EN_Macaron-Studio.webp
+JARAN-270-EN_Cotton-Officer.webp
+JARAN-271-EN_Clover-Scholar.webp
+JARAN-272-EN_Honey-Research.webp
+JARAN-273-EN_Peony-Lecturer.webp
+JARAN-274-EN_Candy-Portfolio.webp
+JARAN-275-EN_Bubble-Studio.webp
+JARAN-276-EN_Sherbet-Design.webp
+JARAN-277-EN_Pixie-Specialist.webp
+JARAN-278-EN_Sprinkle-Manager.webp
+JARAN-279-EN_Bubble-Creative.webp
+JARAN-280-EN_Macaron-Manager.webp
+JARAN-281-EN_Clover-Officer.webp
+JARAN-282-EN_Peony-Specialist.webp
+JARAN-283-EN_Sprinkle-Analyst.webp
+JARAN-284-EN_Cotton-Business.webp
+JARAN-285-EN_Honey-Coordinator.webp
+JARAN-286-EN_Sherbet-Professional.webp
+JARAN-287-EN_Daisy-Starter.webp
+JARAN-288-EN_Pixie-Elegant.webp
+JARAN-289-EN_Blossom-Manager.webp
+JARAN-290-EN_Honey-Officer.webp
+JARAN-291-EN_Cotton-Design.webp
+JARAN-292-EN_Candy-Elegant.webp
+JARAN-293-EN_Peony-Modern.webp
+JARAN-294-EN_Bubble-Advisor.webp
+JARAN-295-EN_Daisy-Scholar.webp
+JARAN-296-EN_Clover-Research.webp
+JARAN-297-EN_Sherbet-Faculty.webp
+JARAN-298-EN_Macaron-Director.webp
+JARAN-299-EN_Pixie-Business.webp
+JARAN-300-EN_Sprinkle-Officer.webp
+JARAN-301-EN_Sprinkle-Creative.webp
+JARAN-302-EN_Bubble-Specialist.webp
+JARAN-303-EN_Candy-Design.webp
+JARAN-304-EN_Mocha-Standard.webp
+JARAN-305-EN_Cerulean-Lecturer.webp
+JARAN-306-EN_Pewter-Officer.webp
+JARAN-307-EN_Almond-Coordinator.webp
+JARAN-308-EN_Pearl-Graduate.webp
+JARAN-309-EN_Slate-Lecturer.webp
+JARAN-310-EN_Frost-Professional.webp
