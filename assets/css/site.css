@@ -236,8 +236,8 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(12,22,38,
 .t6.tpl-card{border-top-color:#0c1626}
 .tpl-preview{height:210px;background:#fff;padding:16px 16px 0;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
 .tpl-preview .r-side{background:#f4f6fa}
-.tpl-preview.img{display:block;padding:0;height:210px;position:relative}
-.tpl-preview.img img{width:100%;height:100%;object-fit:cover;display:block}
+.tpl-preview.img{display:block;padding:10px;height:auto;aspect-ratio:210/297;position:relative;background:#eef1f6}
+.tpl-preview.img img{width:100%;height:100%;object-fit:contain;display:block;background:#fff;box-shadow:0 1px 4px rgba(12,22,38,.15)}
 .tpl-preview.img::after{content:"⤢";position:absolute;top:10px;right:10px;width:30px;height:30px;border-radius:50%;background:rgba(12,22,38,.6);color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center;opacity:0;transition:opacity .15s ease}
 .tpl-card:hover .tpl-preview.img::after{opacity:1}
 .tpl-body{padding:16px 18px 18px}
