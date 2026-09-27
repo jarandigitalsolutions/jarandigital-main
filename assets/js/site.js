@@ -342,9 +342,40 @@
         uploadedTemplates[lg] = [];
       }).then(function(){
         pending--;
-        if(pending === 0) renderTemplates(currentLang);
+        if(pending === 0){ renderTemplates(currentLang); renderHeroShowcase(); }
       });
     });
+  }
+
+  function renderHeroShowcase(){
+    var box = document.getElementById("heroShowcase");
+    var files = uploadedTemplates.en || [];
+    if(!box || !files.length) return;
+    var count = Math.min(6, files.length), picks = [];
+    for(var k=0;k<count;k++) picks.push(files[Math.floor(k * files.length / count)]);
+    var html = picks.map(function(f){
+      var name = nameFromFile(f);
+      return '<div class="hs-card" data-name="'+escapeHtml(name)+'"><img src="/assets/templates/en/'+escapeHtml(f)+'" alt="'+escapeHtml(name)+' CV template"></div>';
+    }).join("");
+    html += '<div class="hs-caption"><span class="hs-name"></span><span class="hs-dots">'+picks.map(function(){return "<i></i>";}).join("")+'</span></div>';
+    box.innerHTML = html;
+    box.classList.add("is-live");
+    var cards = box.querySelectorAll(".hs-card"), dots = box.querySelectorAll(".hs-dots i"), nameEl = box.querySelector(".hs-name");
+    var n = cards.length, idx = 0, paused = false;
+    function show(){
+      for(var i=0;i<n;i++){
+        var c = cards[i]; c.className = "hs-card";
+        if(i === idx) c.classList.add("is-front");
+        else if(i === (idx - 1 + n) % n) c.classList.add("is-left");
+        else if(i === (idx + 1) % n) c.classList.add("is-right");
+        if(dots[i]) dots[i].classList.toggle("on", i === idx);
+      }
+      nameEl.textContent = cards[idx].getAttribute("data-name");
+    }
+    show();
+    box.addEventListener("mouseenter", function(){ paused = true; });
+    box.addEventListener("mouseleave", function(){ paused = false; });
+    setInterval(function(){ if(!paused && !document.hidden){ idx = (idx + 1) % n; show(); } }, 3200);
   }
 
   var MOCK_PREVIEW =
