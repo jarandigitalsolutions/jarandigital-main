@@ -405,3 +405,10 @@ footer{background:var(--navy);color:#c6d0e2;padding:56px 0 28px}
   .steps,.tpl-grid,.vcards-row{grid-template-columns:1fr}
   .cv-cta{flex-direction:column;align-items:flex-start}
 }
+
+/* ---------- CV templates page: 5 per row ---------- */
+#tplGrid{grid-template-columns:repeat(5,1fr);gap:16px}
+#tplGrid .tpl-body{padding:12px 12px 14px}
+#tplGrid .tpl-body h3{font-size:13.5px}
+@media (max-width:900px){#tplGrid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){#tplGrid{grid-template-columns:repeat(2,1fr);gap:12px}}
