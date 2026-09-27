@@ -307,7 +307,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(12,22,38,
 .ccard{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);padding:28px 24px;box-shadow:var(--shadow-sm);text-align:center}
 .ccard .ico{width:48px;height:48px;border-radius:12px;background:var(--accent-soft);color:var(--accent-ink);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;font-size:20px}
 .ccard h3{font-size:15px;margin-bottom:6px}
-.ccard .val{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:16px;word-break:break-word}
+.ccard .val{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:16px;word-break:break-word}
 .contact-note{text-align:center;color:var(--ink2);font-size:14px}
 .contact-note a{color:var(--accent-ink);font-weight:700}
 
