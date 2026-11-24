@@ -1,4 +1,4 @@
-<#
+﻿<#
     Builds editor.html — a single, self-contained page editor.
 
     Everything it needs is inlined: the editor's own CSS and JavaScript, a copy
@@ -24,6 +24,7 @@ Write-Host "project root : $root"
 # file -> label shown in the editor's dropdown
 $pageList = [ordered]@{
   "index.html"                  = "Home  -  /"
+  "products.html"               = "Products  -  /products"
   "about.html"                  = "About Us  -  /about"
   "cv.html"                     = "Jaran CV  -  /cv"
   "cv-templates.html"           = "All CV Templates  -  /cv-templates"

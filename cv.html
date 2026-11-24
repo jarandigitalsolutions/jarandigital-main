@@ -32,9 +32,19 @@
     </a>
     <nav class="navlinks" id="navlinks" aria-label="Main">
       <a href="/" data-nav="home" data-i18n="nav_home">Home</a>
+      <div class="navdrop">
+        <a href="/products" data-nav="products" data-i18n="nav_products">Products</a>
+        <div class="navdrop-menu">
+          <a href="https://invite.jarandigital.com/"><img src="/assets/img/products/invite.jpg" alt=""><span><b>Jaran E-Invitation</b><small data-i18n="pm_invite">Wedding e-invitations</small></span></a>
+          <a href="https://gift.jarandigital.com/"><img src="/assets/img/products/gift.jpg" alt=""><span><b>Jaran Gift</b><small data-i18n="pm_gift">Live wedding gift book</small></span></a>
+          <a href="https://moment.jarandigital.com/"><img src="/assets/img/products/moment.jpg" alt=""><span><b>Jaran Moment Photo</b><small data-i18n="pm_moment">Guests share their photos</small></span></a>
+          <a href="https://photobooth.jarandigital.com/"><img src="/assets/img/products/photobooth.jpg" alt=""><span><b>Jaran Photobooth</b><small data-i18n="pm_booth">Instant prints at your event</small></span></a>
+          <a href="https://jaran-menu.pages.dev/"><img src="/assets/img/products/menu.jpg" alt=""><span><b>Jaran Menu</b><small data-i18n="pm_menu">QR ordering for restaurants</small></span></a>
+          <a href="/cv"><img src="/assets/img/products/cv.jpg" alt=""><span><b>Jaran CV</b><small data-i18n="pm_cv">Professional CV design</small></span></a>
+          <a class="all" href="/products" data-i18n="nav_all_products">See all products →</a>
+        </div>
+      </div>
       <a href="/about" data-nav="about" data-i18n="nav_about">About Us</a>
-      <a href="/cv" data-nav="cv" class="active" data-i18n="nav_cv">Jaran CV</a>
-      <a href="/e-invitation" data-nav="einv" data-i18n="nav_einvite">E-Invitation</a>
       <a href="/contact" data-nav="contact" data-i18n="nav_contact">Contact Us</a>
     </nav>
     <div class="navactions">
@@ -51,9 +61,16 @@
   </div>
   <div class="mobilepanel" id="mobilePanel">
     <a href="/" data-nav="home" data-i18n="nav_home">Home</a>
+    <a href="/products" data-nav="products" data-i18n="nav_products">Products</a>
+    <div class="mp-products">
+      <a href="https://invite.jarandigital.com/"><img src="/assets/img/products/invite.jpg" alt="">E-Invitation</a>
+      <a href="https://gift.jarandigital.com/"><img src="/assets/img/products/gift.jpg" alt="">Gift</a>
+      <a href="https://moment.jarandigital.com/"><img src="/assets/img/products/moment.jpg" alt="">Moment Photo</a>
+      <a href="https://photobooth.jarandigital.com/"><img src="/assets/img/products/photobooth.jpg" alt="">Photobooth</a>
+      <a href="https://jaran-menu.pages.dev/"><img src="/assets/img/products/menu.jpg" alt="">Menu</a>
+      <a href="/cv"><img src="/assets/img/products/cv.jpg" alt="">CV</a>
+    </div>
     <a href="/about" data-nav="about" data-i18n="nav_about">About Us</a>
-    <a href="/cv" data-nav="cv" class="active" data-i18n="nav_cv">Jaran CV</a>
-    <a href="/e-invitation" data-nav="einv" data-i18n="nav_einvite">E-Invitation</a>
     <a href="/contact" data-nav="contact" data-i18n="nav_contact">Contact Us</a>
   </div>
 </header>
@@ -251,7 +268,7 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
+    <div class="foot-grid v2">
       <div>
         <div class="foot-brand">
           <span class="mark"><img src="/assets/img/logo.jpg" alt=""></span>
@@ -260,11 +277,19 @@
         <p style="max-width:320px;font-size:14px;color:#a9b6cc" data-i18n="foot_tagline">Digital services that help you and your business stand out.</p>
       </div>
       <div class="foot-col">
+        <h4 data-i18n="nav_products">Products</h4>
+        <a href="https://invite.jarandigital.com/">Jaran E-Invitation</a>
+        <a href="https://gift.jarandigital.com/">Jaran Gift</a>
+        <a href="https://moment.jarandigital.com/">Jaran Moment Photo</a>
+        <a href="https://photobooth.jarandigital.com/">Jaran Photobooth</a>
+        <a href="https://jaran-menu.pages.dev/">Jaran Menu</a>
+        <a href="/cv">Jaran CV</a>
+      </div>
+      <div class="foot-col">
         <h4 data-i18n="foot_explore">Explore</h4>
         <a href="/" data-i18n="nav_home">Home</a>
+        <a href="/products" data-i18n="nav_products">Products</a>
         <a href="/about" data-i18n="nav_about">About Us</a>
-        <a href="/cv" data-i18n="nav_cv">Jaran CV</a>
-        <a href="/e-invitation" data-i18n="nav_einvite">E-Invitation</a>
         <a href="/contact" data-i18n="nav_contact">Contact Us</a>
       </div>
       <div class="foot-col">
@@ -274,7 +299,7 @@
         <a href="mailto:jarandigitalsolutions@gmail.com">jarandigitalsolutions@gmail.com</a>
       </div>
     </div>
-    <div class="foot-bottom">
+<div class="foot-bottom">
       <span id="footYear">© 2026 Jaran Digital Solutions. All rights reserved.</span>
       <span>jarandigital.com</span>
     </div>
