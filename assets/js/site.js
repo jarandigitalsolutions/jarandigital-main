@@ -4,7 +4,21 @@
   /* ---------------- i18n ---------------- */
   var I18N = {
     km: {
-      /* ---- v2: product family (home, /products, header menu) ---- */
+      /* ---- v2.1: inner pages ---- */
+      prod_by:"ដោយ Jaran Digital", cv_how_h2:"CV ថ្មីរបស់អ្នក ក្នុងបីជំហាន",
+      also_eyebrow:"ផលិតផលផ្សេងទៀតពី Jaran", also_h2:"ស្គាល់គ្រួសារ Jaran បន្ថែម", also_p:"កំពុងរៀបមង្គលការ ឬបើកភោជនីយដ្ឋាន? យើងក៏អាចជួយបានដែរ។",
+      cvt_cta_h:"រកឃើញគំរូដែលចូលចិត្តហើយឬនៅ?", cvt_cta_p:"ចុច \"ជ្រើសរើសគំរូនេះ\" ឬផ្ញើលេខកូដគំរូមកយើងតាម Telegram។",
+      about_stat_cv:"គំរូ CV", fam_eyebrow:"គ្រួសារ Jaran", fam_h2:"ផលិតផលប្រាំមួយ ក្រុមការងារតែមួយ",
+      fam_p:"ផលិតផលនីមួយៗមានគេហទំព័រផ្ទាល់ខ្លួន ហើយដំណើរការដូចគ្នា៖ ប្រាប់យើងពីអ្វីដែលអ្នកត្រូវការ ហើយយើងរៀបចំជូន។",
+      chip_lang:"ខ្មែរ និងអង់គ្លេស",
+      ct_form_h:"ផ្ញើសារមកយើង", ct_form_p:"សារនេះផ្ញើត្រង់ទៅក្រុមការងាររបស់យើង។ យើងនឹងឆ្លើយតបតាម Telegram ឬទូរសព្ទ។",
+      ct_name:"ឈ្មោះរបស់អ្នក", ct_contact:"លេខទូរសព្ទ ឬ Telegram", ct_product:"ផលិតផលមួយណា?", ct_any:"មិនទាន់ប្រាកដ",
+      ct_msg:"សាររបស់អ្នក", ct_send:"ផ្ញើសារ", ct_sending:"កំពុងផ្ញើ…",
+      ct_ok:"សូមអរគុណ! សាររបស់អ្នកត្រូវបានផ្ញើ។ យើងនឹងឆ្លើយតបឆាប់ៗ។",
+      ct_err:"សូមទោស មិនអាចផ្ញើសារបានទេ។ សូមផ្ញើសារមកយើងតាម Telegram ជំនួសវិញ។",
+      ct_need:"សូមបំពេញឈ្មោះ និងសាររបស់អ្នក។",
+      ct_help_eyebrow:"សួរអំពីផលិតផល", ct_help_h2:"តើយើងអាចជួយអ្វីបាន?", ct_help_p:"ចុចលើផលិតផល ដើម្បីចាប់ផ្តើមជជែកតាម Telegram។",
+      ask_msg:"សួស្តី! ខ្ញុំចង់ដឹងបន្ថែមអំពី ",      /* ---- v2: product family (home, /products, header menu) ---- */
       nav_products:"ផលិតផល", nav_all_products:"មើលផលិតផលទាំងអស់ →",
       pm_invite:"ធៀបការអេឡិចត្រូនិក", pm_gift:"កត់ចំណងដៃមង្គលការ ផ្ទាល់ៗ", pm_moment:"ភ្ញៀវចែករំលែករូបថត",
       pm_booth:"បោះពុម្ពរូបភ្លាមៗ ក្នុងកម្មវិធី", pm_menu:"កុម្ម៉ង់តាម QR សម្រាប់ភោជនីយដ្ឋាន", pm_cv:"រចនា CV ប្រកបដោយវិជ្ជាជីវៈ",
@@ -196,7 +210,7 @@
       about_pr1_h:"ស្តាប់", about_pr1_p:"យើងសួរនាំពីគោលដៅ រចនាបថ និងកាលបរិច្ឆេទរបស់អ្នក មុននឹងចាប់ផ្តើម។",
       about_pr2_h:"ស្នើរចនា", about_pr2_p:"យើងណែនាំគំរូ ឬរចនាថ្មីមួយដែលសមនឹងអ្នក ព្រមទាំងតម្លៃច្បាស់លាស់។",
       about_pr3_h:"កែសម្រួល", about_pr3_p:"អ្នកមើល ហើយផ្តល់មតិ — យើងកែរហូតដល់អ្នកពេញចិត្ត។",
-      about_pr4_h:"ប្រគល់ជូន", about_pr4_p:"អ្នកទទួលបានឯកសារចុងក្រោយ ឬតំណភ្ជាប់សម្រាប់ចែករំលែកភ្លាមៗ។",
+      about_pr4_h:"ប្រគល់ជូន", about_pr4_p:"យើងរៀបចំអ្វីៗទាំងអស់ ហើយប្រគល់ជូនអ្នក រួចរាល់សម្រាប់ប្រើប្រាស់។",
       about_values_eyebrow:"គុណតម្លៃរបស់យើង", about_values_h2:"អ្វីដែលយើងប្រកាន់ខ្ជាប់",
       about_cta_h:"ចង់ពិភាក្សាពីគម្រោងរបស់អ្នក?",
       about_cta_p:"ផ្ញើសារមកយើងតាម Telegram — គ្មានកាតព្វកិច្ច គ្រាន់តែជាការសន្ទនាដ៏មានប្រយោជន៍។",
@@ -213,7 +227,7 @@
       contact_tg_h:"Telegram", contact_tg_btn:"ជជែកឥឡូវនេះ",
       contact_phone_h:"ទូរស័ព្ទ", contact_phone_btn:"ហៅឥឡូវនេះ",
       contact_email_h:"អ៊ីមែល", contact_email_btn:"សរសេរអ៊ីមែល",
-      contact_note_pre:"jarandigital.com — ចម្លើយលឿនបំផុតគឺតាមរយៈ ",
+      contact_note_pre:"ចម្លើយលឿនបំផុតគឺតាមរយៈ ",
       nf_h1:"រកមិនឃើញទំព័រនេះទេ",
       nf_p:"តំណភ្ជាប់ដែលអ្នកចុច ប្រហែលជាផ្លាស់ប្តូរ ឬលែងមានទៀតហើយ។ សូមសាកល្បងតំណខាងក្រោម។",
       nf_home:"ត្រឡប់ទៅទំព័រដើម",
@@ -221,7 +235,21 @@
       foot_explore:"ស្វែងរក", foot_contact:"ទំនាក់ទំនង", foot_legal:"រក្សាសិទ្ធិគ្រប់យ៉ាង"
     },
     en: {
-      /* ---- v2: product family (home, /products, header menu) ---- */
+      /* ---- v2.1: inner pages ---- */
+      prod_by:"by Jaran Digital", cv_how_h2:"Your new CV in three steps",
+      also_eyebrow:"Also from Jaran", also_h2:"More from the Jaran family", also_p:"Planning a wedding or running a restaurant? We can help there too.",
+      cvt_cta_h:"Found one you like?", cvt_cta_p:"Tap \"Choose this template\" on it, or send us its code on Telegram.",
+      about_stat_cv:"CV templates", fam_eyebrow:"The Jaran family", fam_h2:"Six products, one team",
+      fam_p:"Each product has its own website, and they all work the same way: tell us what you need and we set it up.",
+      chip_lang:"Khmer & English",
+      ct_form_h:"Send us a message", ct_form_p:"It goes straight to our team. We'll reply on Telegram or by phone.",
+      ct_name:"Your name", ct_contact:"Phone or Telegram", ct_product:"Which product?", ct_any:"Not sure yet",
+      ct_msg:"Your message", ct_send:"Send message", ct_sending:"Sending…",
+      ct_ok:"Thank you! Your message has been sent. We'll get back to you soon.",
+      ct_err:"Sorry, the message couldn't be sent. Please message us on Telegram instead.",
+      ct_need:"Please fill in your name and message.",
+      ct_help_eyebrow:"Ask about a product", ct_help_h2:"What can we help you with?", ct_help_p:"Tap a product to start a Telegram chat about it.",
+      ask_msg:"Hi! I'd like to know more about ",      /* ---- v2: product family (home, /products, header menu) ---- */
       nav_products:"Products", nav_all_products:"See all products →",
       pm_invite:"Wedding e-invitations", pm_gift:"Live wedding gift book", pm_moment:"Guests share their photos",
       pm_booth:"Instant prints at your event", pm_menu:"QR ordering for restaurants", pm_cv:"Professional CV design",
@@ -413,7 +441,7 @@
       about_pr1_h:"Listen", about_pr1_p:"We ask about your goal, your style, and your deadline before anything gets designed.",
       about_pr2_h:"Propose", about_pr2_p:"We suggest a template or design something new to suit you — with clear, upfront pricing.",
       about_pr3_h:"Refine", about_pr3_p:"You review and give feedback, and we revise until you're happy with it.",
-      about_pr4_h:"Deliver", about_pr4_p:"You get the final files, or a link ready to share with your guests.",
+      about_pr4_h:"Deliver", about_pr4_p:"We set everything up and hand it over, ready to use.",
       about_values_eyebrow:"Our Values", about_values_h2:"What we stand by",
       about_cta_h:"Want to talk through your project?",
       about_cta_p:"Message us on Telegram — no obligation, just a useful conversation.",
@@ -430,7 +458,7 @@
       contact_tg_h:"Telegram", contact_tg_btn:"Chat now",
       contact_phone_h:"Phone", contact_phone_btn:"Call now",
       contact_email_h:"Email", contact_email_btn:"Send email",
-      contact_note_pre:"jarandigital.com — the fastest way to reach us is on ",
+      contact_note_pre:"The fastest way to reach us is on ",
       nf_h1:"We can't find that page",
       nf_p:"The link you followed may have moved or no longer exists. Try one of the links below.",
       nf_home:"Back to home",
@@ -820,6 +848,10 @@
     if(footYear){
       footYear.textContent = "© "+new Date().getFullYear()+" Jaran Digital Solutions. "+I18N[lang].foot_legal+".";
     }
+    /* "ask about this product" tiles open Telegram with a ready message */
+    document.querySelectorAll("a[data-ask]").forEach(function(a){
+      a.href = "https://t.me/"+TG_HANDLE+"?text="+encodeURIComponent(I18N[lang].ask_msg + a.getAttribute("data-ask") + (lang==="km" ? "។" : "."));
+    });
     renderTemplates(lang);
     renderVideos(lang);
     try{ localStorage.setItem("jaran-lang", lang); }catch(e){}
@@ -945,6 +977,40 @@
         buildVideoGrid(currentLang);
       }
     });
+
+    /* ---------------- contact form → contact.jarandigital.com → our Telegram ---------------- */
+    var ctForm = document.getElementById("ctForm");
+    if(ctForm){
+      var ctStatus = document.getElementById("ctStatus");
+      var ctBtn = ctForm.querySelector("button[type=submit]");
+      var say = function(key, cls){ ctStatus.textContent = I18N[currentLang][key]; ctStatus.className = "ct-status" + (cls ? " "+cls : ""); };
+      ctForm.addEventListener("submit", function(e){
+        e.preventDefault();
+        var f = ctForm.elements;
+        var name = f.name.value.trim(), msg = f.message.value.trim();
+        if(!name || !msg){ say("ct_need", "err"); return; }
+        var product = f.product.value;
+        ctBtn.disabled = true; say("ct_sending");
+        fetch("https://contact.jarandigital.com/", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            site: "Jaran Digital",
+            name: name,
+            contact: f.contact.value.trim(),
+            message: (product ? "[" + product + "] " : "") + msg,
+            page: location.href,
+            website: f.website.value
+          })
+        }).then(function(r){ return r.json().catch(function(){ return {ok:false}; }); })
+          .then(function(d){
+            if(d && d.ok){ say("ct_ok", "ok"); ctForm.reset(); }
+            else say("ct_err", "err");
+          })
+          .catch(function(){ say("ct_err", "err"); })
+          .then(function(){ ctBtn.disabled = false; });
+      });
+    }
 
     /* ---------------- home: show products for one audience ---------------- */
     var audBtns = document.querySelectorAll(".aud-tabs [data-aud]");

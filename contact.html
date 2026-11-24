@@ -90,8 +90,8 @@
       <p class="lead" data-i18n="contactpage_lead">Pick whichever way works best for you — we respond fastest on Telegram.</p>
       <div class="hero-chips">
         <span class="chip"><span class="dot"></span><span data-i18n="hero_chip1">Fast response</span></span>
-        <span class="chip"><span class="dot"></span><span data-i18n="hero_chip2">Designed by experts</span></span>
-        <span class="chip"><span class="dot"></span><span data-i18n="hero_chip3">Fair pricing</span></span>
+        <span class="chip"><span class="dot"></span><span data-i18n="chip_lang">Khmer &amp; English</span></span>
+        <span class="chip"><span class="dot"></span><span data-i18n="why2_2h">We set it up for you</span></span>
       </div>
     </div>
   </div>
@@ -99,36 +99,74 @@
 
 <section id="contact" style="background:var(--paper)">
   <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow" data-i18n="contact_ways_eyebrow">Ways to reach us</div>
-      <h2 data-i18n="contact_ways_h2">Get in touch</h2>
-      <p data-i18n="contact_p">Pick whichever way works best for you — we respond fastest on Telegram.</p>
+    <div class="ct-grid">
+      <div class="ct-ways reveal">
+        <a class="ct-way tgw" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">
+          <span class="ico"><img src="/assets/img/telegram.png" alt=""></span>
+          <span><h3 data-i18n="contact_tg_h">Telegram</h3><span class="val">@jarandigitalservices_cambodia</span></span>
+          <span class="go" aria-hidden="true">→</span>
+        </a>
+        <a class="ct-way" href="tel:+855717045533">
+          <span class="ico" aria-hidden="true">☎</span>
+          <span><h3 data-i18n="contact_phone_h">Phone</h3><span class="val">+855 71 704 5533</span></span>
+          <span class="go" aria-hidden="true">→</span>
+        </a>
+        <a class="ct-way" href="mailto:jarandigitalsolutions@gmail.com">
+          <span class="ico" aria-hidden="true">✉</span>
+          <span><h3 data-i18n="contact_email_h">Email</h3><span class="val">jarandigitalsolutions@gmail.com</span></span>
+          <span class="go" aria-hidden="true">→</span>
+        </a>
+        <p class="contact-note" style="text-align:left;margin-top:6px" data-i18n-note>The fastest way to reach us is on <a href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">Telegram</a>.</p>
+      </div>
+
+      <form class="ct-form reveal" id="ctForm" novalidate>
+        <h3 data-i18n="ct_form_h">Send us a message</h3>
+        <p data-i18n="ct_form_p">It goes straight to our team. We'll reply on Telegram or by phone.</p>
+        <div class="ct-row">
+          <label class="fld"><span data-i18n="ct_name">Your name</span><input name="name" autocomplete="name" maxlength="120" required></label>
+          <label class="fld"><span data-i18n="ct_contact">Phone or Telegram</span><input name="contact" autocomplete="tel" maxlength="160"></label>
+        </div>
+        <label class="fld"><span data-i18n="ct_product">Which product?</span>
+          <select name="product">
+            <option value="" data-i18n="ct_any">Not sure yet</option>
+            <option>Jaran E-Invitation</option>
+            <option>Jaran Gift</option>
+            <option>Jaran Moment Photo</option>
+            <option>Jaran Photobooth</option>
+            <option>Jaran Menu</option>
+            <option>Jaran CV</option>
+          </select>
+        </label>
+        <label class="fld"><span data-i18n="ct_msg">Your message</span><textarea name="message" maxlength="2800" required></textarea></label>
+        <label class="hp" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label>
+        <button class="btn primary block" type="submit" data-i18n="ct_send">Send message</button>
+        <div class="ct-status" id="ctStatus" role="status" aria-live="polite"></div>
+      </form>
     </div>
-    <div class="contact-grid reveal">
-      <a class="ccard" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">
-        <div class="ico"><img class="tg-icon" src="/assets/img/telegram.png" alt=""></div>
-        <h3 data-i18n="contact_tg_h">Telegram</h3>
-        <div class="val">@jarandigitalservices_cambodia</div>
-        <span class="btn tg block sm" data-i18n="contact_tg_btn">Chat now</span>
-      </a>
-      <a class="ccard" href="tel:+855717045533">
-        <div class="ico" aria-hidden="true">☎</div>
-        <h3 data-i18n="contact_phone_h">Phone</h3>
-        <div class="val">+855 71 704 5533</div>
-        <span class="btn tg block sm" data-i18n="contact_phone_btn">Call now</span>
-      </a>
-      <a class="ccard" href="mailto:jarandigitalsolutions@gmail.com">
-        <div class="ico" aria-hidden="true">✉</div>
-        <h3 data-i18n="contact_email_h">Email</h3>
-        <div class="val">jarandigitalsolutions@gmail.com</div>
-        <span class="btn tg block sm" data-i18n="contact_email_btn">Send email</span>
-      </a>
-    </div>
-    <p class="contact-note reveal" data-i18n-note>jarandigital.com — the fastest way to reach us is on <a href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">Telegram</a>.</p>
   </div>
 </section>
 
-<section id="good-to-know">
+<section id="ask">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="ct_help_eyebrow">Ask about a product</div>
+      <h2 data-i18n="ct_help_h2">What can we help you with?</h2>
+      <p data-i18n="ct_help_p">Tap a product to start a Telegram chat about it.</p>
+    </div>
+    <div class="reveal">
+    <div class="mini-prods">
+      <a class="mini-prod pc-invite" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran E-Invitation"><img src="/assets/img/products/invite.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran E-Invitation</b><small data-i18n="pm_invite">Wedding e-invitations</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-gift" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran Gift"><img src="/assets/img/products/gift.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Gift</b><small data-i18n="pm_gift">Live wedding gift book</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-moment" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran Moment Photo"><img src="/assets/img/products/moment.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Moment Photo</b><small data-i18n="pm_moment">Guests share their photos</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-booth" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran Photobooth"><img src="/assets/img/products/photobooth.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Photobooth</b><small data-i18n="pm_booth">Instant prints at your event</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-menu" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran Menu"><img src="/assets/img/products/menu.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Menu</b><small data-i18n="pm_menu">QR ordering for restaurants</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-cv" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-ask="Jaran CV"><img src="/assets/img/products/cv.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran CV</b><small data-i18n="pm_cv">Professional CV design</small></span><span class="arr" aria-hidden="true">→</span></a>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="good-to-know" style="background:var(--paper)">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow" data-i18n="contact_hours_eyebrow">Good to know</div>
@@ -147,31 +185,6 @@
         <div class="ico" aria-hidden="true">📍</div>
         <div><h3 data-i18n="contact_i3_h">Where we work</h3><p data-i18n="contact_i3_p">We work entirely online, serving clients across Cambodia and abroad.</p></div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section id="contact-services" style="background:var(--paper)">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow" data-i18n="services_eyebrow">Our Services</div>
-      <h2 data-i18n="services_h2">What we offer</h2>
-    </div>
-    <div class="services-grid reveal">
-      <a class="service-card" href="/cv">
-        <div class="service-body">
-          <h3 data-i18n="svc_cv_h">Jaran CV</h3>
-          <p data-i18n="svc_cv_p">Professionally designed CVs to help you stand out when applying for jobs.</p>
-          <span class="btn primary sm" style="align-self:flex-start" data-i18n="svc_cv_btn">Browse CV Templates</span>
-        </div>
-      </a>
-      <a class="service-card" href="/e-invitation">
-        <div class="service-body">
-          <h3 data-i18n="svc_einv_h">Digital E-Invitations</h3>
-          <p data-i18n="svc_einv_p">Beautiful digital invitations for every occasion.</p>
-          <span class="btn dark sm" style="align-self:flex-start" data-i18n="svc_einv_btn">See Templates</span>
-        </div>
-      </a>
     </div>
   </div>
 </section>

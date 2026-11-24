@@ -28,8 +28,6 @@ $pageList = [ordered]@{
   "about.html"                  = "About Us  -  /about"
   "cv.html"                     = "Jaran CV  -  /cv"
   "cv-templates.html"           = "All CV Templates  -  /cv-templates"
-  "e-invitation.html"           = "E-Invitation  -  /e-invitation"
-  "e-invitation-templates.html" = "All E-Invitation Templates  -  /e-invitation-templates"
   "contact.html"                = "Contact Us  -  /contact"
   "404.html"                    = "Page not found  -  404"
 }

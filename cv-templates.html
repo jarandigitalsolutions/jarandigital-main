@@ -75,28 +75,53 @@
   </div>
 </header>
 
-<main id="main">
+<main id="main" class="themed pc-cv">
 
-<section class="cv-section" style="padding-top:56px">
+<section class="hero prod page solo">
+  <div class="wrap hero-grid">
+    <div class="reveal show">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="/" data-i18n="crumb_home">Home</a>
+        <span class="sep" aria-hidden="true">/</span>
+        <a href="/cv">Jaran CV</a>
+        <span class="sep" aria-hidden="true">/</span>
+        <span class="cur" data-i18n="cv_toc_templates">Templates</span>
+      </nav>
+      <div class="prod-badge"><img src="/assets/img/products/cv.jpg" alt="" width="46" height="46"><span><b>Jaran CV</b><small data-i18n="prod_by">by Jaran Digital</small></span></div>
+      <h1 data-i18n="cv_all_h1">All CV Templates</h1>
+      <p class="lead" data-i18n="cv_all_lead">Browse all of our styles and message us on Telegram once you find one you like.</p>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper);padding-top:48px">
   <div class="wrap">
-    <a href="/cv" class="btn ghost sm" style="color:var(--accent-ink);border-color:var(--line);margin-bottom:24px" data-i18n="cv_all_back">← Back to Jaran CV</a>
-    <div class="section-head reveal">
-      <div class="eyebrow" data-i18n="cv_toc_templates">Templates</div>
-      <h1 style="font-size:clamp(26px,3.4vw,36px);margin-bottom:14px" data-i18n="cv_all_h1">All CV Templates</h1>
-      <p data-i18n="cv_all_lead">Browse all of our styles and message us on Telegram once you find one you like.</p>
-    </div>
-    <div class="tpl-lang-picker" role="group" aria-label="Template language">
-      <button type="button" data-tpl-lang="en">EN</button>
-      <button type="button" data-tpl-lang="kh">KH</button>
-      <button type="button" data-tpl-lang="zh">ZH</button>
-    </div>
     <div class="tpl-search-row">
+      <div class="tpl-lang-picker" role="group" aria-label="Template language" style="margin-bottom:0">
+        <button type="button" data-tpl-lang="en">EN</button>
+        <button type="button" data-tpl-lang="kh">KH</button>
+        <button type="button" data-tpl-lang="zh">ZH</button>
+      </div>
       <label class="skip" for="tplSearch">Search templates</label>
       <input type="search" id="tplSearch" class="tpl-search" data-i18n-placeholder="tpl_search_placeholder" placeholder="Search by code, e.g. TPL118">
       <span class="tpl-result-count" id="tplResultCount" aria-live="polite"></span>
     </div>
     <div class="tpl-grid" id="tplGrid">
       <!-- template cards injected by JS -->
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cv-cta reveal">
+      <div>
+        <h3 data-i18n="cvt_cta_h">Found one you like?</h3>
+        <p data-i18n="cvt_cta_p">Tap "Choose this template" on it, or send us its code on Telegram.</p>
+      </div>
+      <a class="btn tg" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">
+        <span><img class="tg-icon" src="/assets/img/telegram.png" alt=""></span><span data-i18n="hero_cta2">Chat on Telegram</span>
+      </a>
     </div>
   </div>
 </section>

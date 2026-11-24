@@ -75,27 +75,29 @@
   </div>
 </header>
 
-<main id="main">
+<main id="main" class="themed pc-cv">
 
-<section class="hero">
+<section class="hero prod">
   <div class="wrap hero-grid">
     <div class="reveal show">
       <nav class="crumbs" aria-label="Breadcrumb">
         <a href="/" data-i18n="crumb_home">Home</a>
         <span class="sep" aria-hidden="true">/</span>
-        <span class="cur" data-i18n="nav_cv">Jaran CV</span>
+        <a href="/products" data-i18n="nav_products">Products</a>
+        <span class="sep" aria-hidden="true">/</span>
+        <span class="cur">Jaran CV</span>
       </nav>
-      <div class="eyebrow on-dark" data-i18n="cvpage_eyebrow">Jaran CV</div>
+      <div class="prod-badge"><img src="/assets/img/products/cv.jpg" alt="" width="46" height="46"><span><b>Jaran CV</b><small data-i18n="prod_by">by Jaran Digital</small></span></div>
       <h1 data-i18n="cvpage_h1">Professional CVs, designed for you</h1>
       <p class="lead" data-i18n="cvpage_lead">Pick the style you like, message us on Telegram, and our designer will build your CV for you — fast.</p>
       <div class="hero-ctas">
-        <a class="btn primary" href="#cv-templates" data-i18n="cvpage_cta1">See Templates</a>
+        <a class="btn light" href="#cv-templates" data-i18n="cvpage_cta1">See Templates</a>
         <a class="btn ghost" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener" data-i18n="cvpage_cta2">Chat on Telegram</a>
       </div>
       <div class="hero-chips">
-        <span class="chip"><span class="dot"></span><span data-i18n="hero_chip1">Fast response</span></span>
-        <span class="chip"><span class="dot"></span><span data-i18n="hero_chip2">Designed by experts</span></span>
-        <span class="chip"><span class="dot"></span><span data-i18n="hero_chip3">Fair pricing</span></span>
+        <span class="chip"><span class="dot"></span><span data-i18n="f_cv1">300+ templates</span></span>
+        <span class="chip"><span class="dot"></span><span>EN · ខ្មែរ · 中文</span></span>
+        <span class="chip"><span class="dot"></span><span data-i18n="ch_cv2">Same-day delivery</span></span>
       </div>
     </div>
     <div class="hero-visual reveal show">
@@ -110,12 +112,10 @@
             <div class="r-side">
               <div class="r-label"></div>
               <div class="r-ln w80"></div><div class="r-ln w60"></div><div class="r-ln w70"></div>
-              <div class="r-pills"><span class="r-pill"></span><span class="r-pill"></span><span class="r-pill"></span></div>
             </div>
             <div class="r-main">
               <div class="r-label"></div>
               <div class="r-block"><div class="r-ln w70"></div><div class="r-ln w40"></div><div class="r-ln w90"></div></div>
-              <div class="r-block"><div class="r-ln w60"></div><div class="r-ln w40"></div><div class="r-ln w80"></div></div>
             </div>
           </div>
         </div>
@@ -124,7 +124,63 @@
   </div>
 </section>
 
-<section style="background:var(--paper);padding-bottom:44px">
+<section id="cv-how" style="background:var(--paper)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="cv_toc_how">How it Works</div>
+      <h2 data-i18n="cv_how_h2">Your new CV in three steps</h2>
+    </div>
+    <div class="steps reveal" style="margin-bottom:0">
+      <div class="step">
+        <div class="num">1</div>
+        <h3 data-i18n="cv_s1_h">Browse &amp; pick</h3>
+        <p data-i18n="cv_s1_p">Look through the templates below and choose the style that fits you.</p>
+      </div>
+      <div class="step">
+        <div class="num">2</div>
+        <h3 data-i18n="cv_s2_h">Message us on Telegram</h3>
+        <p data-i18n="cv_s2_p">Tap the button and tell us which template you'd like.</p>
+      </div>
+      <div class="step">
+        <div class="num">3</div>
+        <h3 data-i18n="cv_s3_h">Get your CV</h3>
+        <p data-i18n="cv_s3_p">Our designer builds your CV and sends it back — fast and professional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cv-templates">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="cv_eyebrow">Templates</div>
+      <h2 data-i18n="cv_h2">Choose your CV template</h2>
+      <p data-i18n="cv_p">The styles below are just a starting point — tell us your idea and our designer will tailor it to you.</p>
+    </div>
+    <div class="reveal">
+      <div style="text-align:center">
+        <div class="tpl-lang-picker" role="group" aria-label="Template language">
+          <button type="button" data-tpl-lang="en">EN</button>
+          <button type="button" data-tpl-lang="kh">KH</button>
+          <button type="button" data-tpl-lang="zh">ZH</button>
+        </div>
+      </div>
+      <div class="tpl-carousel">
+        <button class="tpl-arrow" id="tplPrev" type="button" aria-label="Previous template">‹</button>
+        <div class="tpl-carousel-track" id="tplCarouselTrack">
+          <!-- template cards injected by JS -->
+        </div>
+        <button class="tpl-arrow" id="tplNext" type="button" aria-label="Next template">›</button>
+      </div>
+      <div class="tpl-carousel-footer">
+        <span class="tpl-counter" id="tplCarouselCounter"></span>
+        <a class="btn dark" href="/cv-templates" data-i18n="cv_see_all">See All Templates</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--paper)">
   <div class="wrap">
     <div class="section-head reveal">
       <div class="eyebrow" data-i18n="why_eyebrow">Advantages</div>
@@ -133,133 +189,98 @@
     <div class="vcards-row reveal">
       <div class="vcard">
         <div class="ico" aria-hidden="true">✎</div>
-        <div><h3 data-i18n="about_v1_h">Professional design</h3><p data-i18n="about_v1_p">Every template is crafted by a designer to help you stand out.</p></div>
+        <div><h3 data-i18n="f_cv3">Made by a designer</h3><p data-i18n="f_cv3p">We write and lay it out together with you.</p></div>
+      </div>
+      <div class="vcard">
+        <div class="ico" aria-hidden="true">文</div>
+        <div><h3 data-i18n="f_cv2">Three languages</h3><p data-i18n="f_cv2p">English, Khmer and Chinese versions of every design.</p></div>
       </div>
       <div class="vcard">
         <div class="ico" aria-hidden="true">⚡</div>
-        <div><h3 data-i18n="about_v2_h">Fast response</h3><p data-i18n="about_v2_p">Message us on Telegram and get a reply right away.</p></div>
-      </div>
-      <div class="vcard">
-        <div class="ico" aria-hidden="true">$</div>
-        <div><h3 data-i18n="about_v3_h">Fair, transparent pricing</h3><p data-i18n="about_v3_p">No hidden fees — we agree on everything before we start.</p></div>
+        <div><h3 data-i18n="f_cv4">Fast</h3><p data-i18n="f_cv4p">Usually the same day, two days at most.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="cv-section" style="padding-top:44px">
+<section id="cv-start">
   <div class="wrap">
     <div class="section-head reveal">
-      <div class="eyebrow" data-i18n="cv_eyebrow">Templates</div>
-      <h2 data-i18n="cv_h2">Choose your CV template</h2>
-      <p data-i18n="cv_p">The styles below are just a starting point — tell us your idea and our designer will tailor it to you.</p>
+      <div class="eyebrow" data-i18n="cv_form_eyebrow">Get Started</div>
+      <h2 data-i18n="cv_form_h">Pick whichever way works best for you</h2>
     </div>
-
-    <div class="biz-layout">
-      <aside class="biz-toc" id="cvToc" aria-label="On this page">
-        <span class="toc-label" data-i18n="toc_label">On this page</span>
-        <a href="#cv-how" data-i18n="cv_toc_how">How it Works</a>
-        <a href="#cv-templates" data-i18n="cv_toc_templates">Templates</a>
-        <a href="#cv-faq" data-i18n="cv_toc_faq">FAQ</a>
-        <a href="#cv-start" data-i18n="cv_toc_start">Get Started</a>
-      </aside>
-
-      <div class="biz-content">
-        <div id="cv-how" class="reveal">
-          <div class="steps">
-            <div class="step">
-              <div class="num">1</div>
-              <h3 data-i18n="cv_s1_h">Browse &amp; pick</h3>
-              <p data-i18n="cv_s1_p">Look through the templates below and choose the style that fits you.</p>
-            </div>
-            <div class="step">
-              <div class="num">2</div>
-              <h3 data-i18n="cv_s2_h">Message us on Telegram</h3>
-              <p data-i18n="cv_s2_p">Tap the button and tell us which template you'd like.</p>
-            </div>
-            <div class="step">
-              <div class="num">3</div>
-              <h3 data-i18n="cv_s3_h">Get your CV</h3>
-              <p data-i18n="cv_s3_p">Our designer builds your CV and sends it back — fast and professional.</p>
-            </div>
-          </div>
-        </div>
-
-        <div id="cv-templates" class="reveal">
-          <div style="text-align:center">
-            <div class="tpl-lang-picker" role="group" aria-label="Template language">
-              <button type="button" data-tpl-lang="en">EN</button>
-              <button type="button" data-tpl-lang="kh">KH</button>
-              <button type="button" data-tpl-lang="zh">ZH</button>
-            </div>
-          </div>
-          <div class="tpl-carousel">
-            <button class="tpl-arrow" id="tplPrev" type="button" aria-label="Previous template">‹</button>
-            <div class="tpl-carousel-track" id="tplCarouselTrack">
-              <!-- template cards injected by JS -->
-            </div>
-            <button class="tpl-arrow" id="tplNext" type="button" aria-label="Next template">›</button>
-          </div>
-          <div class="tpl-carousel-footer">
-            <span class="tpl-counter" id="tplCarouselCounter"></span>
-            <a class="btn dark" href="/cv-templates" data-i18n="cv_see_all">See All Templates</a>
-          </div>
-        </div>
-
-        <div id="cv-faq" class="reveal">
-          <div class="eyebrow" data-i18n="faq_eyebrow">FAQ</div>
-          <h2 style="font-size:clamp(22px,2.6vw,28px);margin-bottom:20px" data-i18n="faq_h2">Frequently asked questions</h2>
-          <div class="faq-list">
-            <details class="faq-item">
-              <summary data-i18n="faq_q1">How long does it take to get my CV?</summary>
-              <div class="faq-a" data-i18n="faq_a1">Usually the same day — 2 days at most. The sooner you send your details and reply to your designer on Telegram, the sooner your CV is ready.</div>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq_q2">What if I don't like any of the templates?</summary>
-              <div class="faq-a" data-i18n="faq_a2">Tell us the look you have in mind — your designer can point you to a closer fit or design something new around it.</div>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq_q3">Can I request changes after I receive my CV?</summary>
-              <div class="faq-a" data-i18n="faq_a3">Yes — just discuss the changes you'd like directly with your designer on Telegram.</div>
-            </details>
-            <details class="faq-item">
-              <summary data-i18n="faq_q4">How do I pay?</summary>
-              <div class="faq-a" data-i18n="faq_a4">Payment details are arranged directly with your designer over Telegram.</div>
-            </details>
-          </div>
-        </div>
-
-        <div id="cv-start" class="reveal">
-          <div class="eyebrow" data-i18n="cv_form_eyebrow">Get Started</div>
-          <h2 style="font-size:clamp(22px,2.6vw,28px);margin-bottom:20px" data-i18n="cv_form_h">Pick whichever way works best for you</h2>
-          <div class="start-options">
-            <div class="start-card">
-              <div class="ico" aria-hidden="true">✎</div>
-              <h3 data-i18n="cv_form_1_h">Fill in the intake form</h3>
-              <p data-i18n="cv_form_1_p">Prefer to write everything down yourself? It takes 3 steps:</p>
-              <ol class="start-steps">
-                <li><b>1</b><span data-i18n="cv_form_1_s1">Download the form.</span></li>
-                <li><b>2</b><span data-i18n="cv_form_1_s2">Fill it in on your phone or computer, at your own pace.</span></li>
-                <li><b>3</b><span data-i18n="cv_form_1_s3">Send the completed form and one photo of yourself to us on Telegram.</span></li>
-              </ol>
-              <div class="start-btns">
-                <a class="btn dark block" href="/assets/forms/cv-intake-en.txt" download data-i18n="cv_form_1_btn">Download Form (English)</a>
-                <a class="btn tg block" href="https://t.me/jarandigitalservices_cambodia?text=Hi!%20Here%20is%20my%20completed%20CV%20form%20and%20photo." target="_blank" rel="noopener">
-                  <span><img class="tg-icon" src="/assets/img/telegram.png" alt=""></span><span data-i18n="cv_form_1_btn2">Send Completed Form</span>
-                </a>
-              </div>
-            </div>
-            <div class="start-card">
-              <div class="ico"><img class="tg-icon" src="/assets/img/telegram.png" alt="" style="width:20px;height:20px"></div>
-              <h3 data-i18n="cv_form_2_h">Talk to a designer directly</h3>
-              <p data-i18n="cv_form_2_p">Prefer to talk instead of write? Message us and your designer will ask you the questions one at a time.</p>
-              <a class="btn tg block" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">
-                <span><img class="tg-icon" src="/assets/img/telegram.png" alt=""></span><span data-i18n="cv_form_2_btn">Chat on Telegram</span>
-              </a>
-            </div>
-          </div>
+    <div class="start-options reveal">
+      <div class="start-card" style="background:var(--paper)">
+        <div class="ico" aria-hidden="true">✎</div>
+        <h3 data-i18n="cv_form_1_h">Fill in the intake form</h3>
+        <p data-i18n="cv_form_1_p">Prefer to write everything down yourself? It takes 3 steps:</p>
+        <ol class="start-steps">
+          <li><b>1</b><span data-i18n="cv_form_1_s1">Download the form.</span></li>
+          <li><b>2</b><span data-i18n="cv_form_1_s2">Fill it in on your phone or computer, at your own pace.</span></li>
+          <li><b>3</b><span data-i18n="cv_form_1_s3">Send the completed form and one photo of yourself to us on Telegram.</span></li>
+        </ol>
+        <div class="start-btns">
+          <a class="btn dark block" href="/assets/forms/cv-intake-en.txt" download data-i18n="cv_form_1_btn">Download Form (English)</a>
+          <a class="btn tg block" href="https://t.me/jarandigitalservices_cambodia?text=Hi!%20Here%20is%20my%20completed%20CV%20form%20and%20photo." target="_blank" rel="noopener">
+            <span><img class="tg-icon" src="/assets/img/telegram.png" alt=""></span><span data-i18n="cv_form_1_btn2">Send Completed Form</span>
+          </a>
         </div>
       </div>
+      <div class="start-card" style="background:var(--paper)">
+        <div class="ico"><img class="tg-icon" src="/assets/img/telegram.png" alt="" style="width:20px;height:20px"></div>
+        <h3 data-i18n="cv_form_2_h">Talk to a designer directly</h3>
+        <p data-i18n="cv_form_2_p">Prefer to talk instead of write? Message us and your designer will ask you the questions one at a time.</p>
+        <a class="btn tg block" href="https://t.me/jarandigitalservices_cambodia" target="_blank" rel="noopener">
+          <span><img class="tg-icon" src="/assets/img/telegram.png" alt=""></span><span data-i18n="cv_form_2_btn">Chat on Telegram</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="cv-faq" style="background:var(--paper)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="faq_eyebrow">FAQ</div>
+      <h2 data-i18n="faq_h2">Frequently asked questions</h2>
+    </div>
+    <div class="faq-list center reveal">
+      <details class="faq-item">
+        <summary data-i18n="faq_q1">How long does it take to get my CV?</summary>
+        <div class="faq-a" data-i18n="faq_a1">Usually the same day — 2 days at most. The sooner you send your details and reply to your designer on Telegram, the sooner your CV is ready.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq_q2">What if I don't like any of the templates?</summary>
+        <div class="faq-a" data-i18n="faq_a2">Tell us the look you have in mind — your designer can point you to a closer fit or design something new around it.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq_q3">Can I request changes after I receive my CV?</summary>
+        <div class="faq-a" data-i18n="faq_a3">Yes — just discuss the changes you'd like directly with your designer on Telegram.</div>
+      </details>
+      <details class="faq-item">
+        <summary data-i18n="faq_q4">How do I pay?</summary>
+        <div class="faq-a" data-i18n="faq_a4">Payment details are arranged directly with your designer over Telegram.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow" data-i18n="also_eyebrow">Also from Jaran</div>
+      <h2 data-i18n="also_h2">More from the Jaran family</h2>
+      <p data-i18n="also_p">Planning a wedding or running a restaurant? We can help there too.</p>
+    </div>
+    <div class="reveal">
+    <div class="mini-prods">
+      <a class="mini-prod pc-invite" href="https://invite.jarandigital.com/"><img src="/assets/img/products/invite.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran E-Invitation</b><small data-i18n="pm_invite">Wedding e-invitations</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-gift" href="https://gift.jarandigital.com/"><img src="/assets/img/products/gift.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Gift</b><small data-i18n="pm_gift">Live wedding gift book</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-moment" href="https://moment.jarandigital.com/"><img src="/assets/img/products/moment.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Moment Photo</b><small data-i18n="pm_moment">Guests share their photos</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-booth" href="https://photobooth.jarandigital.com/"><img src="/assets/img/products/photobooth.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Photobooth</b><small data-i18n="pm_booth">Instant prints at your event</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-menu" href="https://jaran-menu.pages.dev/"><img src="/assets/img/products/menu.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran Menu</b><small data-i18n="pm_menu">QR ordering for restaurants</small></span><span class="arr" aria-hidden="true">→</span></a>
+      <a class="mini-prod pc-cv" href="/cv"><img src="/assets/img/products/cv.jpg" alt="" width="54" height="54" loading="lazy"><span><b>Jaran CV</b><small data-i18n="pm_cv">Professional CV design</small></span><span class="arr" aria-hidden="true">→</span></a>
+    </div>
     </div>
   </div>
 </section>
